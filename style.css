@@ -1,15 +1,41 @@
 /* llamar a la eetiqueta directo*/
-h1{color:green; font-size: 50px;}
+
+.Nombre {
+    color:rgb(0, 7, 42); 
+    background-color: rgb(202, 230, 255);
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+margin-left: 50px;
+}
+
+.h1{color:rgb(0, 7, 42); font-size: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 /* llamar a una clase */
-.titular{color:grey;}
+.titular{color:rgb(58, 148, 251);}
 
 /* llamar a un id */
 #titular3{color:aqua; font-size: 50px; background-color: brown;}
 
-.rojo{color:red}
-.borde{border: 1px yellow solid;}
+.azulOscuro{color:rgb(0, 27, 95)}
+.borde{border: 4px rgb(255, 255, 255) solid;
+font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
 
 #relativa{position: relative; bottom: 10px; right: 10px}
 #whatsapp{position: fixed; bottom: 10px; right: 10px}
 #padding-interno{padding: 50px; margin: 10px;}
+
+.imgred img {
+    width: 100px;
+    display: block;
+    margin: 0.5rem auto;
+
+    border-radius: 50%;
+    text-align:center ;
+    display: inline-flex;
+    float:left ;
+}
