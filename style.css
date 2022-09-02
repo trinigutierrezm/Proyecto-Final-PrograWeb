@@ -4,9 +4,13 @@
     color:rgb(0, 7, 42); 
     background-color: rgb(202, 230, 255);
     font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Serif HK', serif;
 text-align: center;
 margin-left: 50px;
+}
+
+.sticky {
+position: fixed;
 }
 
 .h1{color:rgb(0, 7, 42); font-size: 50px;
@@ -21,12 +25,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .azulOscuro{color:rgb(0, 27, 95)}
 .borde{border: 4px rgb(255, 255, 255) solid;
-font-family: Georgia, 'Times New Roman', Times, serif ;
+font-family: Georgia, 'Times New Roman', Times, monospace ;
 }
 
 
 #relativa{position: relative; bottom: 10px; right: 10px}
-#whatsapp{position: fixed; bottom: 10px; right: 10px}
+#whatsapp{position: fixed; bottom: 10px; right: 10px ; width: 5%;}
 #padding-interno{padding: 50px; margin: 10px;}
 
 .imgred img {
@@ -38,4 +42,48 @@ font-family: Georgia, 'Times New Roman', Times, serif ;
     text-align:center ;
     display: inline-flex;
     float:left ;
+}
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, monospace ;
+    font-weight:900;
+    font-variant: small-caps;
+
+}
+
+#caja1{
+    border:1px solid red;
+    margin-top: 50px;
+    padding-top: 100px;
+
+}
+
+#caja2{
+    margin: 10px 20px 30px 40px;
+    /* top rigth bottom left */
+    border: solid red;
+    border-width: 1px 10px 30px 50px;
+    /*debbugear*/
+}
+#imagen-responsive{
+    width: 20%;
+    border:1px solid rgb(255, 255, 255);
+    display:block;
+
+}
+
+/*Display:
+-none
+-block
+-inline
+-inlie-block
+*/
+li{
+    display:inline;
+    margin-left: 50px;
+}
+span{
+    /* error typo*/
+    border:1px solid red;
+    display:block;
 }
