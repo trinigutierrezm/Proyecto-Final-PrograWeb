@@ -87,3 +87,37 @@ span{
     border:1px solid red;
     display:block;
 }
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Head Head Head Head"
+      "menu body body body"
+      "menu body body body"
+      "footer footer footer footer";
+  }
+  
+  .container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header header"
+      "menu main main main"
+      "menu main main main"
+      "footer footer footer footer";
+  }
+  
+  .menu { grid-area: menu; }
+  
+  .footer { grid-area: footer; }
+  
+  .main { grid-area: main; }
+  
+  .header { grid-area: header; }
+  
+  
