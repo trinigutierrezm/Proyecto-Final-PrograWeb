@@ -82,7 +82,7 @@ font-family: Georgia, 'Times New Roman', Times, monospace ;
 
 }
 
-/*Display:
+/* Display:
 -none
 -block
 -inline
@@ -106,10 +106,10 @@ span{
   grid-auto-flow: row;
   grid-template-areas:
     "header header header header header header header header header header header"
-    "menu main main main main main main main main main main"
-    "menu main main main main main main main main main main"
-    "menu main main main main main main main main main main"
-    "menu main main main main main main main main main main"
+    "main main main main main main main main main main main"
+    "main main main main main main main main main main main"
+    "main main main main main main main main main main main"
+    "main main main main main main main main main main main"
     "footer footer footer footer footer footer footer footer footer footer footer";
 }
 
@@ -124,12 +124,15 @@ span{
   
   @media only screen and (max-width: 600px) {
     body {
-
-      background-color: red;
+      display: grid;
+      grid-template-columns: 1fr;
       overflow: hidden;
     }
+    .grid-container{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
   }
-
 
   img {
     width: 100%;
@@ -139,12 +142,10 @@ span{
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: hsl(207, 35%, 51%);
     padding: 10px;
   }
+
   .grid-item {
-    background-color: white;
-    border: 1px solid #2196F3;
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -154,3 +155,4 @@ span{
     background-color:#002ead;
     transition: 0.7s;
 }
+
