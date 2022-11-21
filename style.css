@@ -50,7 +50,7 @@ font-family: Georgia, 'Times New Roman', Times, monospace ;
     float:none ;
     width: 330px;
     height: 330px;
-    
+    border-radius: 120%;
 }
 
 
