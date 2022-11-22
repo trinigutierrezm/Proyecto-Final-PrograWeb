@@ -119,7 +119,7 @@ span{
 
 .main { grid-area: main; }
 
-.menu { grid-area: menu; }
+
 
   
   @media only screen and (max-width: 600px) {

@@ -28,24 +28,27 @@
     <div class="header">
       <!-- menu de navegacion y logo  -->
      <div class="imgred"  > <img src="./logo rebeka circular.jpeg" alt="Logo RebeKa" > <br> <h1 class="Nombre" >  RebeKa </h1>
+      <br>
+      <h1 class="titular"> Accesorios hechos a mano </h1>
+      <h3></h3>
+      <!-- La etiqueta p es para parrafos  y si pones lorem o lorem*4 te pone parrafos para simular texto-->
+      <p id="padding-interno" class=" azulOscuro borde"> RebeKa es una marca de accesorios hechos a mano por Trinidad Gutiérrez Mosquera, busca llevar colores y piezas originales a tus looks de una manera artesanal y personalizada. 
+        <br>
+      Todas las piezas son diseños únicos. <br>
+      Se aceptan pedidos personalizados    
+        
+      </p>
      </div>
      </div>
     
-     <div class="menu">
-      
-     </div>
+
 
    <div class="main"> 
         <!-- el img es para poner una imagen en el src (source) y el alt (alternativo) es lo que aparece si no figura la imagen -->
         
       <!-- contenido que quiero mostrar -->
       
-      <h1 style="color:rgb(30, 122, 215)"> Accesorios hechos a mano </h1>
-      <h3></h3>
-      <!-- La etiqueta p es para parrafos  y si pones lorem o lorem*4 te pone parrafos para simular texto-->
-      <p id="padding-interno" class=" azulOscuro borde"> RebeKa es una marca de accesorios hechos a mano por Trinidad Gutiérrez Mosquera, busca llevar colores y piezas originales a tus looks de una manera mas artesanal y personalizada. Todas las piezas son diseños únicos.
-        
-      </p>
+     
     
 
     <h1 class="titular"> Productos  </h1>
@@ -56,7 +59,7 @@
         <div class="informacion">
           <h4> Collar Surfer</h4>
           <p> Precio: $650</p>
-         <input class="informacion button" type="button" id="agregarCollarSurfer" value="Agregar a Carrito" onclick="agregarItem(`Collar Surfer`,carritoCliente)">
+         <input class="informacion button btn btn-primary color" type="button" value="Agregar a Carrito" onclick="sumaProductos(650, 'Collar Surfer')">
          </div>
         </div>
 
@@ -64,18 +67,15 @@
         <div class="informacion">
         <h4> Collar Simona</h4>
         <p> Precio: $650</p>
-        <input class="informacion button" type="button" id="agregarSimona" value="Agregar a Carrito" onclick="agregarItem(`Collar Simona`,carritoCliente)">
-
-        <button type="button" class="btn btn-primary color" onclick="sumaProductos(650, ' collar')">Añadir al carrito</button></a>
-
-         </div>
+        <input class="informacion button  btn btn-primary color" type="button" value="Agregar a Carrito" onclick="sumaProductos(650, 'Collar Simona')">
+        </div>
        </div>
 
       <div class="grid-item  imgprod "><img src="./imagenes Rebeka/cMulticolorPlateado.jpeg" alt="">
         <div class="informacion">
         <h4> Collar Rainbow</h4>
         <p> Precio: $650</p>
-        <input class="informacion button" type="button" id="agregarCollarRainbow" value="Agregar a Carrito" onclick="agregarItem(`Collar Rainbow`,carritoCliente)">
+        <input class="informacion button btn btn-primary color" type="button" value="Agregar a Carrito" onclick="sumaProductos(650, 'Collar Rainbow')">
          </div>
         </div>
 
@@ -83,7 +83,7 @@
         <div class="informacion">
         <h4> Collar Silver Pink </h4>
         <p> Precio: $650</p>
-        <input class="informacion button" type="button" id="agregarCollarSilverPink" value="Agregar a Carrito" onclick="agregarItem(`Collar Silver Pink`,carritoCliente)">
+        <input class="informacion button btn btn-primary color" type="button" value="Agregar a Carrito" onclick="sumaProductos(650, 'Collar  Silver Pink')">
          </div>
          </div>
 
@@ -91,7 +91,7 @@
         <div class="informacion">
         <h4> Collar Liana</h4>
         <p> Precio: $650</p>
-        <input class="informacion button" type="button" id="agregarCollarLiana" value="Agregar a Carrito" onclick="agregarItem(`Collar Liana`,carritoCliente)">
+        <input class="informacion button btn btn-primary color" type="button" value="Agregar a Carrito" onclick="sumaProductos(650, 'Collar Liana')">
       </div>
     </div>
 
@@ -99,7 +99,7 @@
         <div class="informacion">
         <h4> Collar Perlas</h4>
         <p> Precio: $650</p>
-        <input class="informacion button" type="button" id="agregarCollarPerlas" value="Agregar a Carrito" onclick="agregarItem(`Collar Perlas`,carritoCliente)">
+        <input class="informacion button btn btn-primary color" type="button" value="Agregar a Carrito" onclick="sumaProductos(650, 'Collar Perlas')">
       </div>
      </div>
         
@@ -107,7 +107,7 @@
         <div class="informacion">
         <h4> Collar Lilo</h4>
         <p> Precio: $650</p>
-        <input class="informacion button" type="button" id="agregarCollarLilo" value="Agregar a Carrito" onclick="agregarItem(`Collar Lilo`,carritoCliente)">
+        <input class="informacion button btn btn-primary color" type="button" value="Agregar a Carrito" onclick="sumaProductos(650, 'Collar Lilo')">
          </div>
          </div>
 
@@ -115,7 +115,7 @@
         <div class="informacion">
         <h4> Aritos Soft Pink</h4>
         <p> Precio: $300</p>
-        <input class="informacion button" type="button" id="agregarAritosSoftPink" value="Agregar a Carrito" onclick="agregarItem(`Aritos Soft Pink`,carritoCliente)">
+        <input class="informacion button btn btn-primary color" type="button" value="Agregar a Carrito" onclick="sumaProductos(300, 'Aritos Soft Pink')">
          </div>
          </div>
 
@@ -123,7 +123,7 @@
         <div class="informacion">
         <h4> Aritos Green </h4>
         <p> Precio: $300</p>
-        <input class="informacion button" type="button" id="agregarAritosGreen" value="Agregar a Carrito" onclick="agregarItem(`Aritos Green`,carritoCliente)">
+        <input class="informacion button btn btn-primary color" type="button" value="Agregar a Carrito" onclick="sumaProductos(300, 'Aritos Green')">
          </div> 
     </div>
 
@@ -156,8 +156,11 @@
       <p>Locación del showroom:</p> <a href="https://www.google.com.ar/maps/place/Larrea+1465,+C1115+CABA/@-34.5902779,-58.4007975,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcca99bbc13591:0x23b5eab0dff68c2!8m2!3d-34.5902346!4d-58.3988016?hl=en&authuser=0" target="_blank">Larrea 1465</a>
       <br><br>
       <!-- la etiqueta a es para poner hipervínculos, en la parte de linkedin de trini puede ir una imagen tambien -->
-      <p>contacto</p>
-      <a href="https://www.linkedin.com/in/trinidad-gutierrez-mosquera-/" target="_blank"> linkedin de Trini</a>
+      <p>Contacto</p>
+      <a href="https://www.instagram.com/trinigutierrezm/" target="_blank"> Instagram </a>
+      <br>
+      <a href="https://www.linkedin.com/in/trinidad-gutierrez-mosquera-/" target="_blank"> Linkedin</a>
+
     </div>
 </div>
   </body>
