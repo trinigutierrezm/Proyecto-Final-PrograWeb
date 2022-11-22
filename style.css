@@ -50,7 +50,7 @@ font-family: Georgia, 'Times New Roman', Times, monospace ;
     float:none ;
     width: 330px;
     height: 330px;
-    border-radius: 120%;
+    border-radius: 5%;
 }
 
 
@@ -143,16 +143,52 @@ span{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+ 
   }
+
+  .grid-container>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #8db8fe;
+    border-radius: 20px;
+}
+
+.grid-container>div:hover{
+  background-color: #6591d3;
+}
+
+
+.informacion{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:15px;
+}
+
+.button{
+  background-color: #b2caf2;
+  width: 160px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+
+  font-size: 17px;
+  font-weight: 300;
+  cursor: pointer;
+}
 
   .grid-item {
     padding: 20px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
 
   .button:hover {
-    background-color:#002ead;
-    transition: 0.7s;
+    background-color:#6c7ca7;
+    transition: 0.4s;
 }
 

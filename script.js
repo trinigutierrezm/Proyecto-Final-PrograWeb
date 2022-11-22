@@ -1,5 +1,6 @@
 // Variables
-const baseDeDatos = [
+let carritoCliente =[]
+let baseDeDatos = [
     {
         id: 1,
         nombre: 'Collar Surfer',
@@ -55,3 +56,16 @@ const baseDeDatos = [
         imagen: ''
     },
     ];
+
+    function agregarItem(item,array){
+        array.push(item)
+        console.log(array)
+    }
+
+let boton = document.getElementById("agregarPera")
+
+boton.addEventListener("click",agregarItem("pera",carritoCliente),true)
+
+const element = document.getElementById("myBtn");
+
+
