@@ -57,26 +57,7 @@ let baseDeDatos = [
     },
     ];
 
-    function sumaProductos(item,carritoCliente){
-        carritoCliente.push(item)
-        console.log(carritoCliente)
-    }
 
-let boton = document.getElementById("agregarPera")
-
-boton.addEventListener("click",agregarItem("pera",carritoCliente),true)
-
-const element = document.getElementById("myBtn");
-
-
-
-
-const btnCart = document.querySelector('.container-icon')
-const containerCartProducts = document.querySelector('.container-cart-products')
-
-btnCart.addEventListener('click', () => {
-    containerCartProducts.classList.toggle('hidden-cart')
-})
 
 let arrayProducto =[]
 let Total = 0
