@@ -29,15 +29,6 @@
       <!-- menu de navegacion y logo  -->
      <div class="imgred"  > <img src="./logo rebeka circular.jpeg" alt="Logo RebeKa" > <br> <h1 class="Nombre" >  RebeKa </h1>
      </div>
-     <div  >
-      <ul type="circle" >
-       <!-- los types pueden ser circle, squear, y hay mas -->
-      <a href="./collares.html"><li>collares</li></a>
-      <a href="./pulseras.html"><li>pulseras</li></a>
-      <a href="./anillos.html"><li>anillos</li></a>
-      <a href="./aros.html"><li>aros</li></a>
-    </ul>
-   </div>
      </div>
     
      <div class="menu">
@@ -61,7 +52,7 @@
 
     <div class="grid-container">
 
-      <div class="grid-item imgprod "> <img src="./imagenes Rebeka/cBlancoCelesteSurfer.jpeg" alt="Collar Blanco y Celeste Surfer">
+      <div class="grid-item imgprod cart-product"> <img src="./imagenes Rebeka/cBlancoCelesteSurfer.jpeg" alt="Collar Blanco y Celeste Surfer">
         <div class="informacion">
           <h4> Collar Surfer</h4>
           <p> Precio: $650</p>
@@ -74,6 +65,9 @@
         <h4> Collar Simona</h4>
         <p> Precio: $650</p>
         <input class="informacion button" type="button" id="agregarSimona" value="Agregar a Carrito" onclick="agregarItem(`Collar Simona`,carritoCliente)">
+
+        <button type="button" class="btn btn-primary color" onclick="sumaProductos(70000, ' Crema')">Añadir al carrito</button></a>
+
          </div>
        </div>
 
@@ -132,6 +126,18 @@
         <input class="informacion button" type="button" id="agregarAritosGreen" value="Agregar a Carrito" onclick="agregarItem(`Aritos Green`,carritoCliente)">
          </div> 
     </div>
+
+    <div class="zona_calculadora" id="icalculadora">
+      <div class="texto_calcu"></div>
+      <div class="d-grid gap-2 col-6 mx-auto" id="carrito">
+          <button class="btnnbtn-primary" type="button" disabled>
+              <div class="zona_calculo2" id="calculadora"></div>
+               <div id="elTotal">  CARRITO   TOTAL: 0 Pesos</div>
+               <button type="button" class="btn btn-primary color " onclick="Limpiar()">Vaciar Carrito</button>
+               <button type="submit" class="submit">ENVIAR</button>
+          </button>   
+      </div>     
+  </div>
 
     <a href="https://wa.me/+5491139165210" target="_blank"><img src="https://es.logodownload.org/wp-content/uploads/2018/10/whatsapp-logo-11.png" id="whatsapp" width="5%" alt="whatsapp de RebeKa">
 </a>

@@ -192,3 +192,83 @@ span{
     transition: 0.4s;
 }
 
+#cart-container {
+  padding: 10%;
+}
+
+
+.btnbtn-primar{ color: black; text-align: center;}
+
+#Submit1{background-color: rgb(52, 52, 52);text-align: center;}
+#expl{text-align: center;}  
+
+.btnnbtn-primary{background-color: white;color: black; position: sticky;bottom: 10px;}
+.btnnnbtn-primary{background-color: black;color: black;}
+
+#carrito{position: fixed;bottom: 15px;left: 40% ;width: 300px;}
+#calculos{text-align: center;}
+
+.sc-10gk5i5-3{color: black; }
+.crema1{
+    width: 10%; 
+    height: 200px;
+}
+.locion{
+    width: 180px; 
+    height: 250px;
+}
+.sc-10gk5i5-5{color: black;}
+.bSGoKg {padding: 0px 10px 12px;}
+input{display:inline}
+.form-control{display: inline!important;}
+tbody, td, tfoot, th, thead, tr{border-style: none!important;}
+
+.navbar{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding: 5px;
+    --bs-navbar-toggler-focus-width: 0.8px;
+    --bs-navbar-color: black;
+    --bs-navbar-hover-color: black;
+    text-decoration: none!important;
+
+}
+
+
+.dropdown {display: inline-block;
+    position: relative;}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 150px;
+    overflow: auto;
+    z-index: 2;}
+.dropdown:hover .dropdown-content {
+    display: block;}
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+  }
+.dropdown-content a:hover {
+    color:black;
+    background-color: #00A4BD;
+  }
+
+#aci1
+{
+  border-top: 0cm;
+  }
+#cre1
+  {
+    border-top: 0cm;
+    }
+#loc1
+{
+    border-top: 0cm;
+}
+#imgVenta{
+    width: 120%;
+    height: 80%;
+}
